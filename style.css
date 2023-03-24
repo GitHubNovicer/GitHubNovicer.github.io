@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    p{
+    color: rgb(26, 109, 26);
+    }
+    .beginning h1{
+    }
+    main{
+        top: 20px;
+        position: absolute;
+    }
+    .beginning h2{
+        top: 30px;
+    }
+    .newhorizonhead{
+    color: black;
+    font-family: cursive;
+    border: 3px solid grey;
+    position: sticky;
+    top: 70px;
+    margin-top: 10%;
+    z-index:1;
+    padding-right: 0%;
+    }
+    #belief{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    .cross{
+    text-transform: lowercase;
+    font-weight: bolder;
+    }
+    header{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1028546/pexels-photo-1028546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    z-index: 2;
+    object-position: bottom 5%;
+
+    }
+    ul{
+        list-style: none;
+    }
+    header li{
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    }
+    a[href*="About"], a[href*="Views"], 
+    a[href*="Bible"], a[href*="Forums"]{
+        color: white;
+        text-decoration: none;
+    }
+   #subhead{
+    position: relative;
+    top: 90px;
+   }
+
+   
+    
+
+    
