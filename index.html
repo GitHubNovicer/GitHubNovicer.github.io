@@ -1,32 +1,36 @@
 <!doctype html>
 <html>
   <head>
-<link rel="stylesheet"  type = "text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  type = "text/css" href="./resources/css/indexstyle.css">
 <title>New Horizon</title>
   </head>
 <body>
 <header>
 		<ol>
-		<li><a href="Bible.html">Bible</a></li>
-		<li><a href="Views.html">Views</a></li>
-		<li><a href="#start"><img src="https://openclipart.org/image/2400px/svg_to_png/86893/Cross-003.png" height="50" width="30"/></a></li>
-		<li><a href="Forums.html">Forums</a></li>
-		<li><a href="About.html">About</a></li>
+		<li id="navitem"><a href="Bible.html">Bible</a></li>
+		<li id="navitem"><a href="Views.html">Views</a></li>
+		<li id="navcross"><a href="#start"><img src="https://openclipart.org/image/2400px/svg_to_png/86893/Cross-003.png" height="50" width="30"/></a></li>
+		<li id="navitem"><a href="Forums.html">Forums</a></li>
+		<li id="navitem"><a href="About.html">About</a></li>
 		</ol>
 </header>
 <main>
 <div class="beginning">
-    <h1 class="newhorizonhead">New Horizon</h1>
-    <!-- <video src = https://www.cnn.com/485e89fe-80f0-4f14-8286-22fbc12bbc30 width = "300" height = "300"> Video not supported!
-    </video>
--->
+  <figure>
+    <img src="./resources/new-horizon-logo.png" id="icon"></img>
+    <figcaption class="icon_caption">
+      Where new beginnings, begin.
+    </figcaption>
+  </figure>
  </div>
 
 <div id="subhead">
-   <!-- <img src = https://phys.org/newman/gfx/news/hires/2015/newhorizons.jpg width = "500" height = "200"/>
-   -->
-    <h2>Where questions meet answers.</h2>
-  <p>This is the start of something big, if continued. Will I continue?<br><br><br> We <em>will</em><strong><a href = "./Eyes.html">SEE</a></strong>!<br><br>
+    <figure id="bible_video">
+    <video autoplay loop muted plays-inline class="bible_video"> 
+    <source src="./resources/bible_video.mp4" type="video/mp4"> Video can not play</video>
+    </figure> 
+    <p>This is the start of something big, if continued. Will I continue?<br><br><br> We <em>will</em><strong><a href = "./Eyes.html">SEE</a></strong>!<br><br>
 Go to <a href="#table1">table<a></p>
 <p><a href="./neweyes.html">New Eyes Link</a></p>
 </div>
@@ -44,32 +48,9 @@ This is the cross where he died for our sins, our wrongs, our shortcomings.
 </figure>
 <audio src='https://www.youtube.com/embed/CEOyaI6tmxE' controls>
 </audio>
-<section id = "table1">
-<article>
-<table>
-<thead>
-<tr>
-<th colspan="2">Title of my Table!</th>
-</tr>
-<tr>
-<th>Washer Name</th>
-<th>Spins per minute</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Washamatic</th>
-<td>100</td>
-</tr>
-</tbody>
-<tfoot>
-</tfoot>
-<article>
-</section>
-
-</main>
 <footer>
-<p>contact info</p>
-</footer>
+  <p><a href="./contact.html">Contact</a></p>
+  </footer>
+</main>
 </body>
 </html>
